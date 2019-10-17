@@ -1,3 +1,3 @@
-# Playing around with TS in React
+## Playing around with TS in React
 
-## To build run *npm start* or *yarn start*
+- To build run **npm start** or **yarn start**
