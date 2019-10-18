@@ -19,9 +19,11 @@ const AJAXcontent = () => {
 
     return (
         <ul>
-            {users.map(user => (
-            <li>{user.name}</li>
-            ))}
+            {
+                users.map(user => (
+                <li>{user.name}</li>
+                ))
+            }
         </ul>
     );
 };
