@@ -7,7 +7,7 @@ const AJAXcontent = () => {
     const [users, setUsers] = useState([]);
     const [posts, setPosts] = useState([]);
 
-    //need to invoke our getUsers function with useEffect
+    //need to invoke our GET functions with useEffect
     useEffect(() => {
         getUsers()
         getPosts()
