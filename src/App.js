@@ -9,13 +9,6 @@ function App() {
   return (
     <div className="App">
       <Nav />
-        <p>
-          React and TypeScript content
-        </p>
-
-        <p>
-          Data from API call lands here
-        </p>
       <LeftNav />
       <MainCard />
       <AJAXcontent />
